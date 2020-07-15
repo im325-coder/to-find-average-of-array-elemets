@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int i,n,sum=0;
+int arr[10];
+float avg;
+printf("enter the number of elemets in an array");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&n);
+}
+for(i=0;i<n;i++)
+{
+sum=sum+arr[i];
+}
+avg=(float)sum/n;
+printf("the sum is %d",sum);
+printf("the average is %d",avg);
+return 0;
+}
